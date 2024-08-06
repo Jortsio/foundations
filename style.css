@@ -14,16 +14,21 @@
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
-    margin-left: 40px;
+    margin-left: 200px;
+    align-items: left;
 }
 
-.flex-header, a:link {
+.links {
+    align-items: right;
+    margin-left: 800px;
+}
+
+.links, a:link {
     color:white;
     text-decoration: none;
-    align-items: right;
 }
 
-.flex-header, a:visited {
+.links, a:visited {
     color: white;
 }
 
