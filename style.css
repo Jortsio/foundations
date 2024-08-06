@@ -1,0 +1,30 @@
+/*First intro portion with header and sign up button */
+
+.intro {
+    background-color: #1F2937;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    height:auto;
+}
+.flex-header {
+    display: flex;
+    
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 40px;
+}
+
+.flex-header, a:link {
+    color:white;
+    text-decoration: none;
+    align-items: right;
+}
+
+.flex-header, a:visited {
+    color: white;
+}
+
+/*second portion */
