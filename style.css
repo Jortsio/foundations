@@ -1,4 +1,8 @@
+* {
+    outline: 2px solid red;
+}
 /*First intro portion with header and sign up button */
+
 
 .intro {
     background-color: #1F2937;
@@ -6,16 +10,17 @@
     font-family: 'Courier New', Courier, monospace;
     height:auto;
 }
-.flex-header {
-    display: flex;
-    
-}
 
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
     margin-left: 200px;
     align-items: left;
+}
+
+.flex-container {
+    display: flex;
+    flex: 1;
 }
 
 .links {
@@ -30,6 +35,13 @@
 
 .links, a:visited {
     color: white;
+}
+
+.placeholder {
+    background-color: gray;
+    height: 300px;
+    width: 400px;
+    
 }
 
 /*second portion */
